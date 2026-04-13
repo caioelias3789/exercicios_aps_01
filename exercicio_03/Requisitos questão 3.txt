@@ -1,0 +1,14 @@
+Requisitos questão 3:
+
+Requisitos Funcionais:
+
+RF01 – Criar Boneco
+RF02 – Exibir Estado do Boneco
+RF03 – Movimentar Boneco (CIMA,BAIXO,DIREITA,ESQUERDA)
+RF04 – Atualizar Posição
+RF05 – Atualizar Direção
+
+Requisitos Não Funcionais:
+
+RNF01 – Interface Simples - O sistema deve possuir uma interface simples e fácil de usar.
+RNF02 – Tempo de Resposta - As ações de movimentação devem ser refletidas imediatamente na interface.

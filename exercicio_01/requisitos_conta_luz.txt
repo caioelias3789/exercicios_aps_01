@@ -1,0 +1,31 @@
+REQUISITOS DO SISTEMA - CONTROLE DE CONTA DE LUZ
+
+1.  REQUISITOS FUNCIONAIS
+
+RF01 – O sistema deve permitir cadastrar uma conta de luz. 
+RF02 – O sistema deve armazenar: - Data da leitura - Número da leitura - Consumo (kWh) - Valor da conta - Data de pagamento
+
+RF03 – O sistema deve permitir visualizar todas as contas cadastradas.
+RF04 – O sistema deve calcular a média de consumo mensal. 
+RF05 – O sistema deve calcular a média de consumo diário com base nas datas de leitura. 
+RF06 – O sistema deve identificar o mês com maior consumo. 
+RF07 – O sistema deve identificar o mês com menor consumo.
+RF08 – O sistema deve calcular o consumo com base nas leituras (opcional). 
+RF09 – O sistema deve calcular o número de dias entre leituras.
+
+2.  REQUISITOS NÃO FUNCIONAIS
+
+RNF01 – O sistema deve possuir interface simples e intuitiva. 
+RNF02 – O sistema deve ser executado em ambiente web (Streamlit). 
+RNF03 – O sistema deve responder rapidamente aos cálculos. 
+RNF04 – Os dados devem ser mantidos durante a execução da aplicação. 
+RNF05 – O sistema deve ser compatível com navegadores modernos.
+
+3.  REGRAS DE NEGÓCIO
+
+RN01 – A leitura atual deve ser maior que a leitura anterior. 
+RN02 – O consumo deve ser maior ou igual a zero. 
+RN03 – A média diária deve ser calculada com base na diferença entre datas de leitura. 
+RN04 – Para cálculo da média diária, devem existir pelo menos duas leituras. 
+RN05 – O mês de maior consumo é aquele com maior valor de kWh. 
+RN06 – O mês de menor consumo é aquele com menor valor de kWh.
