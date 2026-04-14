@@ -1,0 +1,11 @@
+Requisitos funcionais
+- RF01: O sistema deve cadastrar CDs com cantor/conjunto, título e ano de lançamento.
+- RF02: O sistema deve listar todos os CDs cadastrados.
+- RF03: O sistema deve buscar CD por título com comparação sem distinção de maiúsculas/minúsculas.
+- RF04: O sistema deve buscar CDs por cantor/conjunto com correspondência parcial.
+- RF05: O sistema deve exibir mensagem adequada quando não houver resultados.
+
+Requisitos não funcionais
+- RNF01: O sistema deve oferecer feedback imediato de sucesso, alerta ou aviso.
+- RNF02: A visualização dos resultados deve ser tabular e legível.
+- RNF03: O mecanismo de busca deve ser simples e de baixa complexidade para coleções pequenas.

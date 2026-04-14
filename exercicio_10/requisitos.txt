@@ -1,0 +1,13 @@
+Requisitos funcionais
+- RF01: O sistema deve cadastrar salas com número e capacidade.
+- RF02: O sistema deve cadastrar funcionários com nome, cargo e ramal.
+- RF03: O sistema deve agendar reunião com assunto, data, horário, sala e responsável.
+- RF04: O sistema deve impedir agendamento em sala já ocupada no mesmo horário/data.
+- RF05: O sistema deve permitir realocar reunião para nova sala/data/horário sem conflito.
+- RF06: O sistema deve listar reuniões de uma data específica.
+- RF07: O sistema deve consultar salas livres por horário.
+
+Requisitos não funcionais
+- RNF01: O sistema deve trabalhar com grade de horários padronizada.
+- RNF02: A validação de conflitos deve ocorrer antes de salvar ou realocar reunião.
+- RNF03: As consultas devem retornar resultados em formato tabular para leitura rápida

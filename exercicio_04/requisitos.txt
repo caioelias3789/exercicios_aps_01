@@ -1,0 +1,12 @@
+Requisitos funcionais
+- RF01: O sistema deve cadastrar tratamento com paciente, remédio, dosagem, data de início, quantidade de dias e frequência diária.
+- RF02: O sistema deve calcular a data final do tratamento.
+- RF03: O sistema deve sugerir horários automáticos de tomada distribuídos ao longo de 24 horas.
+- RF04: O sistema deve permitir remarcar horários de medicação.
+- RF05: O sistema deve gerar planilha com cronograma diário de medicação.
+
+Requisitos não funcionais
+- RNF01: Horários devem ser exibidos no formato HH:MM.
+- RNF02: O sistema deve manter consistência temporal nos cálculos de intervalo e data final.
+- RNF03: A exportação para planilha deve ser estruturada em formato tabular (DataFrame).
+

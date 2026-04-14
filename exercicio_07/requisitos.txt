@@ -1,0 +1,11 @@
+Requisitos funcionais
+- RF01: O sistema deve cadastrar produtos para lista de compras com unidade, quantidade mensal, quantidade de compra e preço estimado.
+- RF02: O sistema deve calcular subtotal por produto.
+- RF03: O sistema deve calcular o total geral da lista.
+- RF04: O sistema deve listar produtos cadastrados em formato tabular.
+- RF05: O sistema deve permitir atualizar o preço de um produto e recalcular o total.
+
+Requisitos não funcionais
+- RNF01: O sistema deve recalcular totais automaticamente após qualquer atualização de preço.
+- RNF02: A tabela deve ser responsiva para uso em diferentes larguras de tela.
+- RNF03: A interface deve usar validação de entrada para impedir valores negativos.

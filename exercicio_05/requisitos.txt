@@ -1,0 +1,11 @@
+Requisitos funcionais
+- RF01: O sistema deve cadastrar gastos com tipo, data, valor e forma de pagamento.
+- RF02: O sistema deve listar todos os gastos cadastrados.
+- RF03: O sistema deve calcular o total de gastos do mês corrente.
+- RF04: O sistema deve agrupar valores por tipo de gasto.
+- RF05: O sistema deve consolidar valores por forma de pagamento.
+
+Requisitos não funcionais
+- RNF01: Tipos de gasto e formas de pagamento devem ser controlados por enumeração.
+- RNF02: O valor total mensal deve ser calculado automaticamente em tempo de execução.
+- RNF03: A interface deve apresentar os dados em tabela para facilitar leitura.

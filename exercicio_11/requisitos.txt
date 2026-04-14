@@ -1,0 +1,12 @@
+Requisitos funcionais
+- RF01: O sistema deve cadastrar clientes e funcionários herdando dados comuns de pessoa.
+- RF02: O sistema deve registrar endereço e telefone vinculados à pessoa.
+- RF03: O sistema deve calcular idade com base na data de nascimento.
+- RF04: O sistema deve listar clientes e funcionários com seus dados completos.
+- RF05: O sistema deve permitir reajustar salário de funcionário por percentual.
+- RF06: O sistema deve permitir promover funcionário alterando o cargo.
+
+Requisitos não funcionais
+- RNF01: A modelagem deve aplicar orientação a objetos com herança para reuso de atributos e métodos.
+- RNF02: A interface deve separar operações por menu para facilitar manutenção.
+- RNF03: O sistema deve manter estado em sessão para evitar perda de dados durante a navegação.

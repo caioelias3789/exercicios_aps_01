@@ -1,0 +1,11 @@
+Requisitos funcionais
+- RF01: O sistema deve registrar produtos em uma comanda com quantidade.
+- RF02: O sistema deve calcular subtotal por item automaticamente.
+- RF03: O sistema deve calcular e exibir o total da comanda.
+- RF04: O sistema deve listar os itens da comanda com produto, quantidade, valor unitário e subtotal.
+- RF05: O sistema deve permitir finalizar compra e limpar a comanda.
+
+Requisitos não funcionais
+- RNF01: O cálculo de total deve ser consistente com os subtotais dos itens.
+- RNF02: A interface deve permitir operação rápida com poucos cliques.
+- RNF03: O estado da comanda deve persistir durante a sessão do usuário.

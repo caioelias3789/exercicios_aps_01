@@ -1,0 +1,12 @@
+Requisitos funcionais
+- RF01: O sistema deve permitir cadastrar músicos, músicas e CDs separadamente.
+- RF02: O sistema deve impedir cadastro duplicado de músico e de música pelo nome/título.
+- RF03: O sistema deve permitir associar múltiplos músicos e múltiplas músicas a um CD.
+- RF04: O sistema deve consultar CDs por músico.
+- RF05: O sistema deve consultar CDs por música.
+
+Requisitos não funcionais
+- RNF01: O sistema deve organizar funcionalidades em abas para melhorar navegabilidade.
+- RNF02: A associação entre entidades deve evitar duplicações de vínculos no mesmo CD.
+- RNF03: Os dados devem ser mantidos em memória de sessão durante o uso da aplicação.
+
